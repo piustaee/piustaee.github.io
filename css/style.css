@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 :root {
@@ -160,6 +160,8 @@ section {
     background-color: var(--bg-color);
     min-height: 100vh;
     padding: 3rem 8% 3rem;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .home {
