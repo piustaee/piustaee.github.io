@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pius Tae</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Pius Tae || Portofolio</title>
     <link href="css/style.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body text="#ffffff">
-    <nav>
+    <nav >
         <div class="nav-container">
             <div class="nav-content">
                 <div class="nav-header">
@@ -31,7 +33,7 @@
             </div>
 
             <!-- Mobile menu -->
-            <div class="mobile-menu" id="mobile-menu">
+            <div data-aos="fade-down" class="mobile-menu" id="mobile-menu">
                 <a href="#home" class="mobile-nav-link active">Home</a>
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#services" class="nav-link">Services</a>
@@ -44,7 +46,7 @@
 
 
     <section class="home" id="home">
-        <div class="home-content">
+        <div data-aos="fade-right" class="home-content">
             <h1>Hi, It's <span>Pius</span></h1>
             <h3 class="text-animation">I'm a <span></span></h3>
             <p>Hello, my name is Pius Tae, and I am a 7th-semester student in the Informatics Engineering Program at
@@ -67,17 +69,20 @@
             </div>
 
         </div>
-        <div class="home-img">
+        <div data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500" class="home-img">
             <img src="./ava.jpg" alt="">
         </div>
 
     </section>
 
     <section class="education" id="education">
-        <h2 class="heading">Education</h2>
+        <h2 data-aos="zoom-in" class="heading">Education</h2>
         <div class="timeline-items">
 
-            <div class="timeline-item">
+            <div data-aos="fade-left" class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">July 2018 – June 2021</div>
                 <div class="timeline-content">
@@ -87,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="timeline-item">
+            <div data-aos="fade-right" class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">September 2021 – Present</div>
                 <div class="timeline-content">
@@ -98,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="timeline-item">
+            <div data-aos="fade-left" class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">February 2024 – Mei 2024</div>
                 <div class="timeline-content">
@@ -109,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="timeline-item">
+            <div data-aos="fade-right" class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2024</div>
                 <div class="timeline-content">
@@ -123,10 +128,10 @@
     </section>
 
     <section class="services" id="services">
-        <h2 class="heading">Services</h2>
+        <h2 data-aos="zoom-in" class="heading">Services</h2>
 
         <div class="services-container">
-            <div class="service-box" data-modal="myModal1" id="serviceBox1">
+            <div data-aos="fade-down-right" class="service-box" data-modal="myModal1" id="serviceBox1">
                 <div class="service-info">
                     <h4>Web Design</h4>
                     <p>My web design skills focus on crafting user-centric interfaces that are both functional and
@@ -137,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="service-box" data-modal="myModal2" id="serviceBox2">
+            <div data-aos="fade-down-left" class="service-box" data-modal="myModal2" id="serviceBox2">
                 <div class="service-info">
                     <h4>Graphic Design</h4>
                     <p>In addition to web design, I have strong expertise in graphic design. I create high-quality
@@ -147,7 +152,7 @@
                         target audiences.</p>
                 </div>
             </div>
-            <div class="service-box" data-modal="myModal3" id="serviceBox3">
+            <div data-aos="zoom-in" class="service-box" data-modal="myModal3" id="serviceBox3">
                 <div class="service-info">
                     <h4>Web Development</h4>
                     <p>I have a solid background in web development, capable of turning design concepts into fully
@@ -157,7 +162,7 @@
                         robust, secure, and scalable.</p>
                 </div>
             </div>
-            <div class="service-box" data-modal="myModal4" id="serviceBox4">
+            <div data-aos="zoom-in" class="service-box" data-modal="myModal4" id="serviceBox4">
                 <div class="service-info">
                     <h4>Network Management</h4>
                     <p>Beyond design and development, I am also knowledgeable in network management. I am familiar with
@@ -166,7 +171,7 @@
                         digital environments I work with are reliable and efficient.</p>
                 </div>
             </div>
-            <div class="service-box" data-modal="myModal5" id="serviceBox5">
+            <div data-aos="fade-up" class="service-box" data-modal="myModal5" id="serviceBox5">
                 <div class="service-info">
                     <h4>Video Editing</h4>
                     <p>I possess skills in video editing, enabling me to create compelling visual stories through video
@@ -176,7 +181,7 @@
                     </p>
                 </div>
             </div>
-            <div class="service-box" data-modal="myModal6" id="serviceBox6">
+            <div data-aos="fade-up" class="service-box" data-modal="myModal6" id="serviceBox6">
                 <div class="service-info">
                     <h4>locked</h4>
                     <p>Coming Soon</p>
@@ -187,9 +192,9 @@
 
     <section class="testimonials" id="testimonials">
         <div class="testimonials-box">
-            <h2 class="heading">Testimonials</h2>
+            <h2 data-aos="zoom-in" class="heading">Testimonials</h2>
             <div class="wrapper">
-                <div class="testimonial-item">
+                <div data-aos="fade-left" class="testimonial-item">
                     <!-- <img src="" alt=""> -->
                     <h2>marlin</h2>
                     <div class="rating">
@@ -203,7 +208,7 @@
                         tempora facere numquam, incidunt commodi laboriosam! Temporibus sed alias laborum dolore facere.
                     </p>
                 </div>
-                <div class="testimonial-item">
+                <div data-aos="zoom-in" class="testimonial-item">
                     <!-- <img src="" alt=""> -->
                     <h2>rebeca</h2>
                     <div class="rating">
@@ -217,7 +222,7 @@
                         tempora facere numquam, incidunt commodi laboriosam! Temporibus sed alias laborum dolore facere.
                     </p>
                 </div>
-                <div class="testimonial-item">
+                <div data-aos="fade-right" class="testimonial-item">
                     <!-- <img src="" alt=""> -->
                     <h2>josh</h2>
                     <div class="rating">
@@ -237,10 +242,10 @@
 
 
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
+        <h2 data-aos="zoom-in" class="heading">Contact <span>Me</span></h2>
 
         <form action="">
-            <div class="input-group">
+            <div data-aos="fade-left" class="input-group">
                 <div class="input-box">
                     <input type="text" placeholder="Full Name">
                     <input type="email" placeholder="Email">
@@ -250,15 +255,15 @@
                 </div>
             </div>
 
-            <div class="input-group-2">
+            <div data-aos="fade-right" class="input-group-2">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input class="btn" type="submit" value="Send Message">
+                <input  class="btn" type="submit" value="Send Message">
             </div>
 
         </form>
     </section>
 
-    <footer class="footer">
+    <footer data-aos="fade-up" class="footer">
         <div class="social">
             <a href="https://www.linkedin.com/in/piustaeee/"><i class='bx bxl-linkedin-square'></i></a>
             <a href=""><i class='bx bxl-github'></i></a>
@@ -287,7 +292,7 @@
     </footer>
 
     <!-- Modal Structure -->
-    <div id="myModal1" class="modal" >
+    <div data-aos="zoom-in" id="myModal1" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -300,7 +305,7 @@
             </div>
         </div>
     </div>
-    <div id="myModal2" class="modal" >
+    <div data-aos="zoom-in" id="myModal2" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -313,7 +318,7 @@
             </div>
         </div>
     </div>
-    <div id="myModal3" class="modal" >
+    <div data-aos="zoom-in" id="myModal3" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -326,7 +331,7 @@
             </div>
         </div>
     </div>
-    <div id="myModal4" class="modal" >
+    <div data-aos="zoom-in" id="myModal4" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -339,7 +344,7 @@
             </div>
         </div>
     </div>
-    <div id="myModal5" class="modal" >
+    <div data-aos="zoom-in" id="myModal5" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -352,7 +357,7 @@
             </div>
         </div>
     </div>
-    <div id="myModal6" class="modal" >
+    <div data-aos="zoom-in" id="myModal6" class="modal" >
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -368,6 +373,9 @@
 
 
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
-
 </html>
