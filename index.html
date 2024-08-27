@@ -12,7 +12,7 @@
 </head>
 
 <body text="#ffffff">
-    <nav >
+    <nav>
         <div class="nav-container">
             <div class="nav-content">
                 <div class="nav-header">
@@ -69,10 +69,8 @@
             </div>
 
         </div>
-        <div data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="500" class="home-img">
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"
+            class="home-img">
             <img src="./ava.jpg" alt="">
         </div>
 
@@ -244,22 +242,22 @@
     <section class="contact" id="contact">
         <h2 data-aos="zoom-in" class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form action="https://formspree.io/f/movardoy" method="POST">
             <div data-aos="fade-left" class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Full Name" name="name">
+                    <input type="email" placeholder="Email" name="email">
                 </div>
                 <div class="input-box">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Subject" name="subjects">
                 </div>
             </div>
 
             <div data-aos="fade-right" class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input  class="btn" type="submit" value="Send Message">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input class="btn" type="submit" value="Send Message">
+                <!-- <button class="btn" type="submit">Send</button> -->
             </div>
-
         </form>
     </section>
 
@@ -292,7 +290,7 @@
     </footer>
 
     <!-- Modal Structure -->
-    <div data-aos="zoom-in" id="myModal1" class="modal" >
+    <div data-aos="zoom-in" id="myModal1" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -305,7 +303,7 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" id="myModal2" class="modal" >
+    <div data-aos="zoom-in" id="myModal2" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -318,7 +316,7 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" id="myModal3" class="modal" >
+    <div data-aos="zoom-in" id="myModal3" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -331,7 +329,7 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" id="myModal4" class="modal" >
+    <div data-aos="zoom-in" id="myModal4" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -344,7 +342,7 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" id="myModal5" class="modal" >
+    <div data-aos="zoom-in" id="myModal5" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -357,7 +355,7 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" id="myModal6" class="modal" >
+    <div data-aos="zoom-in" id="myModal6" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="image-container">
@@ -375,7 +373,8 @@
     <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
+
 </html>
